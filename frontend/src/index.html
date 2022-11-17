@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Henry Ling</title>
+		<title>Henry Ling's website</title>
+		<script src="js/scripts.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 	</head>
 	<body>
 
 		<h1>Henry Ling</h1>
-		<p>The man the myth the legend</p>
+		<h3>The man... the myth... the legend!!</h3>
+
+		<p>Welcome to my website...</p>
+		<p>My name is Henry and I am a data scientist and software engineer!</p>
+		<button id="mybutton1" onclick="SendAlert()">Click Me</button>
+		<button onclick="ShowHidden()">Hidden text</button>
+		<div id="hiddentext" style="display:none;">
+			<p>This is some hidden special content that I would like you to view</p>
+		</div>
+
+		<button onclick="updateTheNumber()">update the number</button>
+		<p id="numbertoupdate">2</p>
 
 	</body>
 </html>
