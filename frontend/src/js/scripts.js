@@ -22,3 +22,4 @@ function updateTheNumber(){
 	document.getElementById("numbertoupdate").innerHTML = newVal
 
 }
+
