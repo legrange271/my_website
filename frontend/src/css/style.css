@@ -8,11 +8,21 @@
 	}
 
 }
+html, body {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    height: 100%;
+}
 
 .bubble{
 	height: max(300px, 30vw);
-	width: max(300px, 30vw);
-	background-color: rgb(33,150,243);
+	width: max(250px, 30vw);
+	background-color: #621360;
 	border-radius: 100%;
 	position: absolute;
 	left: 50%;
@@ -34,3 +44,17 @@
 	color: red;
 }
 
+.header{
+    position: relative; 
+    top: 0; 
+    left:0 ; 
+    background-color: #621360; 
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3em; 
+    color: white;
+    margin-top:  0;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0;
+}
